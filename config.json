@@ -1,0 +1,58 @@
+{
+  "financials": {
+    "aov": 649.0,
+    "gross_margin_pct": 0.62,
+    "forward_shipping": 65.0,
+    "return_shipping": 65.0,
+    "packaging_handling": 25.0,
+    "damage_rate": 0.08,
+    "damaged_product_cost": 180.0,
+    "meta_cac": 300.0,
+    "prepaid_rto_rate": 0.04
+  },
+  "prepaid_incentive": {
+    "discount_amount": 50.0,
+    "min_order_value_for_discount": 499.0,
+    "free_gift_alternative": "Silk Scrunchie worth ₹150"
+  },
+  "decision_thresholds": {
+    "cancel_risk_cutoff": 0.75,
+    "nudge_prepaid_risk_cutoff": 0.45,
+    "whatsapp_confirm_risk_cutoff": 0.25,
+    "max_allowed_prior_rto": 1,
+    "high_order_value_threshold": 1500.0,
+    "high_risk_states": [
+      "Bihar",
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "flagged_keywords_address": [
+      ".",
+      "xyz",
+      "home",
+      "call me",
+      "near station",
+      "test",
+      "fake",
+      "asdf"
+    ],
+    "flagged_names": [
+      "test",
+      "test order",
+      "asdf",
+      "qwerty",
+      "xyz",
+      "admin",
+      "user",
+      "na",
+      "aaa",
+      "abc"
+    ]
+  },
+  "whatsapp_settings": {
+    "response_timeout_hours": 24,
+    "first_reminder_hours": 12,
+    "default_language": "hinglish",
+    "enable_auto_hold_on_timeout": true
+  }
+}
